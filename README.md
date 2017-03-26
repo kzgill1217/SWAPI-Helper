@@ -9,7 +9,7 @@ https://github.com/cfjedimaster/SWAPI-Wrapper
 2. Use the aliases in the bottom of the helper file to refer to the functions
 3. Use the request function to just get the response of a url
 
-### TO-DD
+### TO-DO
 1. Use jQuery to pass object in as a parameter to a single request generator function and pass in variables in the code to remove the use of so many aliases
 2. Update README on using that function
 3. Create a minified version of the SWAPI Helper
