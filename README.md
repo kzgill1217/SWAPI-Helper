@@ -12,13 +12,13 @@ https://github.com/cfjedimaster/SWAPI-Wrapper
 * Use the requestGenerator function by passing in different paramenters.
 * To get a single record from the Star Wars API, simply use requestGenerator('one', 'path', id, function(data){console.log(data);});
  * requestGenerator('one', 'films', 1, function(data){console.log(data);}); 
- * Makes a request to http://swapi.co/films/1/
+ * Makes a request to http://swapi.co/api/films/1/
 * To get multiple records requestiGenerator('many', 'path', function(data){console.log(data)});
  * requestGenerator('many', 'films', function(data){console.log(data);}); 
- * Makes a request to http://swapi.co/films/
+ * Makes a request to http://swapi.co/api/films/
  * By default only upto 10 results are returned at a time, use the page parameter to specify which page to request (do not use 0)
   * requestGenerator('many', 'people', 2, function(data){console.log(data);}); 
-  * Makes a request to http://swapi.co/people/?page=2
+  * Makes a request to http://swapi.co/api/people/?page=2
 * Use the request(url) function to easily make requests to URL's from the response data
 * Look in the index.html file for further clarification
 
